@@ -26,7 +26,7 @@ $(call inherit-product, device/lge/gee/full_gee.mk)
 $(call inherit-product, vendor/lego/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/legonfig/nfc_enhanced.mk)
+$(call inherit-product, vendor/lego/config/nfc_enhanced.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gee
