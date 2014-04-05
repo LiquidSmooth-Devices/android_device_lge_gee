@@ -23,15 +23,15 @@ TARGET_SCREEN_WIDTH := 768
 $(call inherit-product, device/lge/gee/full_gee.mk)
 
 # phone
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/lego/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/legonfig/nfc_enhanced.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gee
 PRODUCT_BRAND := LGE
-PRODUCT_NAME := liquid_gee
+PRODUCT_NAME := lego_gee
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
