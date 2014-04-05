@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "spleef/android_device_lge_gee-common",
+    "repository": "legorom/android_device_lge_gee-common",
     "target_path": "device/lge/gee-common",
     "revision": "vanir"
   },
