@@ -34,7 +34,7 @@ PRODUCT_BRAND := LGE
 PRODUCT_NAME := lego_gee
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=lego.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # Kernel inline build
 TARGET_KERNEL_CONFIG := gee_defconfig
