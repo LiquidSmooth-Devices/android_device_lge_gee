@@ -55,4 +55,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="google/occam/mako:4.4.2/KOT49H/937116:user/release-keys"
 
 # Enable Torch
-PRODUCT_PACKAGES += Torch
+PRODUCT_PACKAGES += OmniTorch
