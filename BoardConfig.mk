@@ -13,7 +13,6 @@
 # limitations under the License.
 
 TARGET_KERNEL_CONFIG := gee_defconfig
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := sm-arm-eabi-4.10
 
 # inherit from gee-common
 -include device/lge/gee-common/BoardConfigCommon.mk
