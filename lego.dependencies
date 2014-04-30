@@ -9,6 +9,6 @@
     "remote": "github",
     "repository": "cameron581/kernel_msm",
     "target_path": "kernel/lge/gee",
-    "revision": "matr1x-aosp"
+    "revision": "glitch-mod"
   }
 ]
