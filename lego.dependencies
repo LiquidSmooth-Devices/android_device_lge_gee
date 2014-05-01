@@ -7,8 +7,8 @@
   },
   {
     "remote": "github",
-    "repository": "cdub50/kernel_msm",
+    "repository": "cameron581/kernel_msm",
     "target_path": "kernel/lge/gee",
-    "revision": "matr1x-sm"
+    "revision": "glitch-mod"
   }
 ]
