@@ -23,18 +23,18 @@ TARGET_SCREEN_WIDTH := 768
 $(call inherit-product, device/lge/gee/full_gee.mk)
 
 # phone
-$(call inherit-product, vendor/lego/config/common_full_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/lego/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gee
 PRODUCT_BRAND := LGE
-PRODUCT_NAME := lego_gee
+PRODUCT_NAME := liquid_gee
 PRODUCT_MODEL := Optimus G
 PRODUCT_MANUFACTURER := LGE
-PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=lego.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
+PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.gee.$(shell date +%m%d%y).$(shell date +%H%M%S)
 
 # Kernel inline build
 TARGET_KERNEL_CONFIG := gee_defconfig
@@ -55,4 +55,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="google/occam/mako:4.4.2/KOT49H/937116:user/release-keys"
 
 # Enable Torch
-PRODUCT_PACKAGES += OmniTorch
+PRODUCT_PACKAGES += Torch
