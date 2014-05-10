@@ -1,14 +1,20 @@
 [
   {
-    "remote": "github",
+    "remote": "gh",
     "repository": "xboxfanj/android_device_lge_gee-common",
     "target_path": "device/lge/gee-common",
     "revision": "vanir"
   },
   {
-    "remote": "github",
+    "remote": "gh",
     "repository": "cameron581/kernel_msm",
     "target_path": "kernel/lge/gee",
     "revision": "glitch-mod"
-  }
+  },
+  {
+   "remote": "ls",
+   "repository": "proprietary_vendor_lge",
+   "target_path": "vendor/lge",
+   "revision": "kitkat"
+ }
 ]
